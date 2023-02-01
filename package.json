@@ -12,6 +12,7 @@
   "author": "kelvin2go",
   "license": "ISC",
   "dependencies": {
+    "chatgpt": "^3.5.1",
     "compression": "^1.7.4",
     "expo-cli": "^4.3.2",
     "express": "^4.17.1",
@@ -19,7 +20,8 @@
     "google-trends-api": "^4.9.2",
     "lru-cache": "^7.13.2",
     "node-gtts": "^2.0.2",
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.13",
+    "puppeteer": "^19.6.2"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",

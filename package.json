@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Nodejs RESTAPI for google-trend-api",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.4.0"
+  },
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",

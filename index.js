@@ -10,7 +10,7 @@ const { TTSRouter } = require('./lib/textToSpeech');
 
 app.get('/', (req, res) => {
   res.send(
-    'This is kelvin rapid api! Github: <a href="https://github.com/kelvin2go">Kelvin2go</a>'
+    'This is kelvin rapid api!'
   );
 });
 

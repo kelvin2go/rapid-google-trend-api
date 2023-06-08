@@ -7,7 +7,7 @@
     "node": ">=18.4.0"
   },
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "export GOOGLE_APPLICATION_CREDENTIALS=\"./google.json\" && nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "PORT=443 node index.js"
@@ -15,6 +15,7 @@
   "author": "kelvin2go",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/text-to-speech": "^4.2.2",
     "chatgpt": "^3.5.1",
     "compression": "^1.7.4",
     "expo-cli": "^4.3.2",
@@ -24,10 +25,10 @@
     "lru-cache": "^7.13.2",
     "node-gtts": "^2.0.2",
     "nodemon": "^2.0.13",
+    "openai": "^3.2.1",
     "puppeteer": "^19.6.2"
   },
   "devDependencies": {
-    "dotenv": "^16.0.3",
-    "openai": "^3.1.0"
+    "dotenv": "^16.0.3"
   }
 }

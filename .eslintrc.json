@@ -1,0 +1,26 @@
+{
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2021": true
+    },
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+      "ecmaVersion": 2021
+    },
+    "rules": {
+      "semi": ["error", "always"],
+      "quotes": ["error", "single"],
+      "indent": ["error", 4],
+      "comma-spacing": ["error", { "before": false, "after": true }],
+      "comma-style": ["error", "last"],
+      "no-multi-spaces": "error",
+      "no-trailing-spaces": "error",
+      "no-unused-vars": "error",
+      "object-curly-spacing": ["error", "always"],
+      "array-bracket-spacing": ["error", "never"],
+      "space-before-function-paren": ["error", "always"],
+      "eol-last": ["error", "always"],
+      "no-multiple-empty-lines": ["error", { "max": 1 }]
+    }
+  }

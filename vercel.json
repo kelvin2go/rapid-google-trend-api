@@ -11,5 +11,9 @@
             "src": "/(.*)",
             "dest": "/"
         }
-    ]
+    ],
+    "crons": [{
+        "path": "/trend/corn",
+        "schedule": "0 0 * * *"
+    }]
 }

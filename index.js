@@ -8,6 +8,7 @@ app.use(compression());
 
 const { GoogleTrendRouter } = require('./lib/googleTrend');
 const { TTSRouter } = require('./lib/textToSpeech');
+const { TTDRouter } = require('./lib/textToDraw');
 
 app.get('/', (req, res) => {
     res.send(
@@ -19,6 +20,7 @@ app.use('/trend', GoogleTrendRouter);
 app.use('/gt', GoogleTrendRouter);
 app.use('/googletrend', GoogleTrendRouter);
 app.use('/tts', TTSRouter);
+app.use('/ttd', TTDRouter);
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
